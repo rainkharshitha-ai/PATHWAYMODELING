@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";   // ✅ ADD THIS
-import ModelImg from "../images/modeling-banner.jpg";
+import ModelImg from "../Images/modeling-banner.jpg";
 
 
 const BecomeModel = () => {
