@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";   // ✅ ADD THIS
 import ModelImg from "../images/modeling-banner.jpg";
 
+
 const BecomeModel = () => {
   return (
     <div className="w-full">
