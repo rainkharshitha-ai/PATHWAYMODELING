@@ -1,9 +1,10 @@
 import { Container, Row, Col, Button, Card } from "react-bootstrap";
-import Logo from "../Images/Logo.jpg";
-import ModelingImg from "../Images/Modeling.jpg";
-import ModelingImg1 from "../Images/Modeling1.jpg";
-import DirectorMain from "../Images/Director_Main.jpg";
-import DirectorEvent from "../Images/Director_Event.jpg";
+import Logo from "../images/logo.jpg";
+import ModelingImg from "../images/modeling.jpg";
+import ModelingImg1 from "../images/modeling1.jpg";
+import DirectorMain from "../images/director_main.jpg";
+import DirectorEvent from "../images/director_event.jpg";
+
 
 
 const Home = () => {
