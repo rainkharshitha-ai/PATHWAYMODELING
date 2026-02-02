@@ -1,7 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";   // ✅ ADD THIS
-import ModelImg from "../Images_temp/modeling-banner.jpg";
-
+import { Link } from "react-router-dom";   // ✅ KEEP THIS
 
 const BecomeModel = () => {
   return (
@@ -10,7 +8,7 @@ const BecomeModel = () => {
       {/* HERO SECTION */}
       <div className="relative h-[70vh]">
         <img
-          src={ModelImg}
+          src="/modeling-banner.jpg"   // ✅ FROM public FOLDER
           alt="Become a Model"
           className="w-full h-full object-cover"
         />
@@ -36,19 +34,18 @@ const BecomeModel = () => {
             </h2>
 
             <ul className="space-y-2 text-lg">
-            <li>✔ Open to ages 16 and above</li>
-            <li>✔ Strong passion for modeling</li>
-            <li>✔ Confidence and commitment</li>
-           <li>✔ No prior experience required</li>
-           </ul>
-
+              <li>✔ Open to ages 16 and above</li>
+              <li>✔ Strong passion for modeling</li>
+              <li>✔ Confidence and commitment</li>
+              <li>✔ No prior experience required</li>
+            </ul>
 
             <p className="mt-4 text-gray-600">
               We provide professional grooming, runway training,
               portfolio shoots, and real industry exposure.
             </p>
 
-            {/* ✅ APPLY BUTTON WITH LINK */}
+            {/* APPLY BUTTON */}
             <Link to="/apply">
               <button className="mt-4 px-6 py-3 rounded-full bg-black text-white hover:bg-yellow-600 transition">
                 Apply Now
@@ -59,7 +56,7 @@ const BecomeModel = () => {
           {/* RIGHT IMAGE */}
           <div className="col-md-6 text-center">
             <img
-              src={ModelImg}
+              src="/modeling-banner.jpg"   // ✅ SAME IMAGE
               alt="Model"
               className="rounded-2xl shadow-lg mx-auto max-w-full"
             />
